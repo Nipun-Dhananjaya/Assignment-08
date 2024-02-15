@@ -1,0 +1,40 @@
+body{
+    background-color: #e9e7e6;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: #f260c9;
+}
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.que-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #afafaf;
+}
+.item{
+    position: relative;
+}
+.item>div{
+    color: #68c471;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+.item>img{
+    width: 120px;
+    height: 100px;
+}
+.house>img{
+    width: 250px;
+    height: 180px;
+}
