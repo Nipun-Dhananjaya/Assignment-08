@@ -6,7 +6,7 @@ h1{
     text-align: center;
     color: #f260c9;
 }
-section{
+.que{
     width: 100%;
     height: 80vh;
     display: flex;
@@ -37,4 +37,25 @@ section{
 .house>img{
     width: 250px;
     height: 180px;
+}
+.buttons{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+button{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#start{
+    bottom: 150px;
+}
+#stop{
+    bottom: 100px;
 }
